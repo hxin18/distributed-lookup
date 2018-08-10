@@ -1,22 +1,3 @@
-Name:Xin Huang
-ID:9500696164
-Session 1
-Library included:
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <errno.h>
-#include <string.h>
-#include <netdb.h>
-#include <sys/types.h>
-#include <netinet/in.h>
-#include <sys/socket.h>
-#include <arpa/inet.h>
-#include <sys/wait.h>
-#include <iostream>
-#include <map>
-#include <fstream>
-#include <vector>
 
 What have I done in this project:
 	I have finished all the requirement as described in the Project requirement, including the seach, prefix and suffix. In Phase 1, aws and three backend servers will up and run, the monitor will be on as well. The client send the function to the aws and aws send it to the backend server to do the information retrival according to the function. In the phase 2, the aws gather the result and send back to client and monitor for display. For the backend servers, I have implemented a kv pair based dictionary to store the dictionary and implement four function respectively for search word, search similar, prefix and suffix.
